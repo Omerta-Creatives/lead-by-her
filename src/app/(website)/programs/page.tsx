@@ -28,7 +28,7 @@ export default function Programs() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              [Placeholder] Explore the pillars through which Lead by Her invests in women and young girls.
+              Explore the pillars through which Lead by Her invests in women and young girls.
             </p>
           </Reveal>
         </div>

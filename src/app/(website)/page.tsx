@@ -47,7 +47,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-6 max-w-xl text-[19px] leading-relaxed text-forest-50/90">
-                [Placeholder] Lead by Her Empowerment Initiative works alongside women and young girls in Nigeria —
+                Lead by Her Empowerment Initiative works alongside women and young girls in Nigeria —
                 through education, leadership, welfare, wellbeing and skills — with impact beyond borders.
               </p>
             </Reveal>
@@ -104,7 +104,7 @@ export default function Home() {
           <SectionTitle
             eyebrow="Our Work"
             title="Practical action. Human impact."
-            text="[Placeholder] Explore the programs through which Lead by Her invests in women and young girls."
+            text="Explore the programs through which Lead by Her invests in women and young girls."
           />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {programs.map(([t, d, img], i) => (
@@ -139,7 +139,7 @@ export default function Home() {
           <SectionTitle
             eyebrow="Featured Campaign"
             title="Help us build a better future."
-            text="[Placeholder] Support a current campaign and help move a community project from vision to reality."
+            text="Support a current campaign and help move a community project from vision to reality."
           />
           <Reveal>
             <Card className="overflow-hidden rounded-3xl py-0">
@@ -156,7 +156,9 @@ export default function Home() {
                   <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">Education & Opportunity</div>
                   <h3 className="serif mt-2 text-4xl leading-tight">Education for Every Girl</h3>
                   <p className="mt-3 leading-relaxed text-muted-foreground">
-                    [Placeholder campaign description explaining the need, the intervention, and the expected impact.]
+                    Too many girls miss lessons or fall behind simply because they lack textbooks and learning materials.
+                    This campaign puts books, exam-prep resources and school supplies directly into students&apos;
+                    hands — helping them stay in school, pass their exams and reach their full potential.
                   </p>
                   <div className="mt-6">
                     <div className="flex justify-between font-bold">
@@ -184,7 +186,7 @@ export default function Home() {
           <SectionTitle
             eyebrow="See It In Action"
             title="Watch our work on the ground."
-            text="[Placeholder] A short look inside a recent Lead by Her school outreach and book distribution."
+            text="A short look inside a recent Lead by Her school outreach and book distribution."
           />
           <Reveal className="mx-auto max-w-xl overflow-hidden rounded-3xl border border-border bg-black">
             <video controls playsInline preload="metadata" className="aspect-square w-full">

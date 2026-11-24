@@ -7,7 +7,11 @@ import { Card, CardContent } from '@/components/ui/card'
 import { FeaturedEventCard } from '@/components/FeaturedEventCard'
 import { tenKWalk } from '@/lib/events'
 
-const events = ['Community Outreach Day', 'Leadership Bootcamp', 'Skills Workshop for Girls'] as const
+const events = [
+  ['Community Outreach Day', 'A day of book distribution, mentoring and welfare support with women and girls in our partner communities.'],
+  ['Leadership Bootcamp', 'An interactive bootcamp helping young women build confidence, public speaking and leadership skills.'],
+  ['Skills Workshop for Girls', 'Hands-on training in practical, income-generating skills that support independence and wellbeing.'],
+] as const
 
 const moments = [
   'book-distribution-classroom.jpg',
@@ -26,7 +30,7 @@ export default function Events() {
           <SectionTitle
             eyebrow="Events"
             title="Come together. Take action. Make an impact."
-            text="[Placeholder] Discover upcoming community events, fundraisers, workshops, and outreach activities."
+            text="Discover upcoming community events, fundraisers, workshops, and outreach activities."
           />
         </Reveal>
         <Reveal>
@@ -35,18 +39,18 @@ export default function Events() {
 
         <div className="mt-16 mb-5 text-xs font-bold tracking-[0.16em] text-primary uppercase">More Events</div>
         <div className="grid gap-4">
-          {events.map((e, i) => (
+          {events.map(([e, desc], i) => (
             <Reveal key={e} delay={i * 80}>
               <Card className="rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
                 <CardContent className="flex flex-col items-start gap-5 p-6 sm:flex-row sm:items-center">
                   <div className="rounded-2xl bg-stone-100 px-4 py-3 text-center">
-                    <strong className="serif block text-3xl">{12 + i * 8}</strong>
-                    <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">SEP</div>
+                    <strong className="serif block text-3xl">TBA</strong>
+                    <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">Date</div>
                   </div>
                   <div className="flex-1">
-                    <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">[Location]</div>
+                    <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">Nigeria · Venue to be announced</div>
                     <h2 className="serif my-1 text-[27px]">{e}</h2>
-                    <p className="text-muted-foreground">[Event description placeholder]</p>
+                    <p className="text-muted-foreground">{desc}</p>
                   </div>
                   <Button asChild variant="outline" className="rounded-full transition-transform hover:-translate-y-0.5">
                     <Link href="/contact">Details</Link>

@@ -8,7 +8,7 @@ export default function Contact() {
         <SectionTitle
           eyebrow="Contact"
           title="Let's start a conversation."
-          text="[Placeholder] Have a question about our work, partnerships, volunteering, or donations? Send us a message."
+          text="Have a question about our work, partnerships, volunteering, or donations? Send us a message."
         />
         <ContactForm />
       </div>

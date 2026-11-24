@@ -49,7 +49,7 @@ export function Footer() {
               className="h-20 w-auto"
             />
             <p className="mt-5 max-w-md leading-7 text-sage-100/70">
-              [Placeholder] Lead by Her Empowerment Initiative — empowering women and young girls through education,
+              Lead by Her Empowerment Initiative — empowering women and young girls through education,
               leadership, welfare, wellbeing and skills. Based in Nigeria, with impact beyond borders.
             </p>
             <div className="mt-6 flex gap-2.5">

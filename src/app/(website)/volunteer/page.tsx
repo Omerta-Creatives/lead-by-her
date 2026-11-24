@@ -11,7 +11,7 @@ export default function Volunteer() {
           <SectionTitle
             eyebrow="Get Involved"
             title="Give your time. Share your skills. Make a difference."
-            text="[Placeholder] Volunteers help us turn community ideas into meaningful action."
+            text="Volunteers help us turn community ideas into meaningful action."
           />
           <div className="grid gap-3.5">
             {ways.map((w) => (

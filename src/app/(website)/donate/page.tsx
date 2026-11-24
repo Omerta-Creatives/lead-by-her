@@ -7,14 +7,14 @@ import { Button } from '@/components/ui/button'
 const bookDrive = [
   {
     title: 'Donate a book',
-    text: '[Placeholder] Give new or gently used books to help stock our classrooms and community libraries.',
+    text: 'Give new or gently used books to help stock our classrooms and community libraries.',
     href: 'https://forms.gle/N93jqtAt9s3J8LMJ9',
     icon: BookOpen,
     cta: 'Donate a book',
   },
   {
     title: 'Register a drop-off location',
-    text: '[Placeholder] Host a collection point in your school, office, or community for our book donation drive.',
+    text: 'Host a collection point in your school, office, or community for our book donation drive.',
     href: 'https://forms.gle/kQDqjqYtw26dShPU6',
     icon: MapPin,
     cta: 'Register a location',
@@ -30,7 +30,7 @@ export default function Donate() {
             <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">Make a Difference</div>
             <h1 className="serif text-[clamp(50px,7vw,76px)] leading-[0.98]">Give back today.</h1>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              [Placeholder] Your donation supports programs and campaigns that help communities create better opportunities.
+              Your donation supports programs and campaigns that help communities create better opportunities.
             </p>
           </div>
           <DonationForm />
@@ -43,7 +43,7 @@ export default function Donate() {
             <div className="text-xs font-bold tracking-[0.16em] text-primary uppercase">Book Donation Drive</div>
             <h2 className="serif mt-2 text-4xl">Prefer to give books instead?</h2>
             <p className="mt-3 text-lg leading-relaxed text-muted-foreground">
-              [Placeholder] Support our book distribution program directly — donate a book or help us collect them.
+              Support our book distribution program directly — donate a book or help us collect them.
             </p>
           </div>
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
