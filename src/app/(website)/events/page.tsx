@@ -4,6 +4,8 @@ import { SectionTitle } from '@/components/SectionTitle'
 import { Reveal } from '@/components/Reveal'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
+import { FeaturedEventCard } from '@/components/FeaturedEventCard'
+import { tenKWalk } from '@/lib/events'
 
 const events = ['Community Outreach Day', 'Leadership Bootcamp', 'Skills Workshop for Girls'] as const
 
@@ -27,6 +29,11 @@ export default function Events() {
             text="[Placeholder] Discover upcoming community events, fundraisers, workshops, and outreach activities."
           />
         </Reveal>
+        <Reveal>
+          <FeaturedEventCard event={tenKWalk} />
+        </Reveal>
+
+        <div className="mt-16 mb-5 text-xs font-bold tracking-[0.16em] text-primary uppercase">More Events</div>
         <div className="grid gap-4">
           {events.map((e, i) => (
             <Reveal key={e} delay={i * 80}>

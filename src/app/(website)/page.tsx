@@ -6,6 +6,8 @@ import { Reveal } from '@/components/Reveal'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { FeaturedEventCard } from '@/components/FeaturedEventCard'
+import { tenKWalk } from '@/lib/events'
 
 const stats = [
   ['10,000+', 'Women & girls reached', Users],
@@ -79,6 +81,20 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Upcoming event */}
+      <section className="section pt-0">
+        <div className="container">
+          <SectionTitle
+            eyebrow="Upcoming Event"
+            title="Walk with us for a cause."
+            text="Join the Lead by Her 10K charity walk and help raise awareness and funds for women and girls in underserved communities."
+          />
+          <Reveal>
+            <FeaturedEventCard event={tenKWalk} />
+          </Reveal>
         </div>
       </section>
 
